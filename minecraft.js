@@ -4,10 +4,19 @@
   container.style.maxWidth = "960px";
   container.style.margin = "40px auto";
   container.style.textAlign = "center";
+  container.style.fontFamily = "Arial, sans-serif";
+
+  // Mensagem explicativa
+  var message = document.createElement("p");
+  message.textContent = "Clique no botão abaixo e, dentro do jogo, clique novamente para ativar o rato.";
+  message.style.fontSize = "14px";
+  message.style.color = "#333";
+  message.style.marginBottom = "12px";
+  container.appendChild(message);
 
   // Cria botão de clique
   var button = document.createElement("button");
-  button.textContent = "Clique para jogar Minecraft Classic";
+  button.textContent = "Carregar Minecraft Classic";
   button.style.padding = "12px 24px";
   button.style.fontSize = "16px";
   button.style.cursor = "pointer";
@@ -15,16 +24,18 @@
   button.style.border = "none";
   button.style.backgroundColor = "#1E90FF";
   button.style.color = "#fff";
+  button.style.marginBottom = "12px";
 
   container.appendChild(button);
   document.currentScript.parentNode.insertBefore(container, document.currentScript);
 
   // Evento do botão
   button.addEventListener("click", function() {
-    // Remove o botão
+    // Remove botão e mensagem
     button.remove();
+    message.remove();
 
-    // Cria o iframe
+    // Cria o iframe do Minecraft
     var iframe = document.createElement("iframe");
     iframe.src = "https://classic.minecraft.net/";
     iframe.width = "100%";
@@ -45,5 +56,4 @@
 
     container.appendChild(attribution);
   });
-
 })();
