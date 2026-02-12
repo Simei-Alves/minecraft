@@ -1,1 +1,40 @@
-%3C!--%20Minecraft%20Classic%20Iframe%20Embed%20Code%20%E2%80%93%20START%20--%3E%20%3Cdiv%20class%3D%22minecraft-embed%22%20style%3D%22max-width%3A960px%3Bmargin%3A0%20auto%3B%22%3E%20%20%20%20%3C!--%20Game%20iframe%20--%3E%20%20%20%3Ciframe%20%20%20%20%20src%3D%22https%3A%2F%2Fclassic.minecraft.net%2F%22%20%20%20%20%20width%3D%22100%25%22%20%20%20%20%20height%3D%22600%22%20%20%20%20%20frameborder%3D%220%22%20%20%20%20%20allowfullscreen%20%20%20%20%20loading%3D%22lazy%22%3E%20%20%20%3C%2Fiframe%3E%20%20%20%20%3C!--%20Attribution%20--%3E%20%20%20%3Cp%20style%3D%22margin%3A8px%200%200%3Bfont-size%3A13px%3Bline-height%3A1.4%3Btext-align%3Acenter%3B%22%3E%20%20%20%20%20%3Ca%20href%3D%22https%3A%2F%2Fclassic.minecraft.net%2F%22%20target%3D%22_blank%22%20rel%3D%22noopener%20noreferrer%22%3E%20%20%20%20%20%20%20Play%20Minecraft%20Classic%20%20%20%20%20%3C%2Fa%3E%20%20%20%3C%2Fp%3E%20%20%20%20%3C!--%20Fallback%20--%3E%20%20%20%3Cnoscript%3E%20%20%20%20%20%3Cp%20style%3D%22text-align%3Acenter%3Bfont-size%3A13px%3B%22%3E%20%20%20%20%20%20%20%3Ca%20href%3D%22https%3A%2F%2Fclassic.minecraft.net%2F%22%3EPlay%20Minecraft%20Classic%3C%2Fa%3E%20%20%20%20%20%3C%2Fp%3E%20%20%20%3C%2Fnoscript%3E%20%20%3C%2Fdiv%3E%20%3C!--%20Minecraft%20Classic%20Iframe%20Embed%20Code%20%E2%80%93%20END%20--%3E
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Minecraft Classic Embed</title>
+  <style>
+    .minecraft-embed {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- Minecraft Classic Iframe Embed Code – START -->
+  <div class="minecraft-embed">
+    <!-- Game iframe -->
+    <iframe
+      src="https://classic.minecraft.net/"
+      width="100%"
+      height="600"
+      frameborder="0"
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+    <!-- Attribution -->
+    <p style="margin:8px 0 0;font-size:13px;line-height:1.4;text-align:center;">
+      <a href="https://classic.minecraft.net/" target="_blank" rel="noopener noreferrer">
+        Play Minecraft Classic
+      </a>
+    </p>
+    <!-- Fallback -->
+    <noscript>
+      <p style="text-align:center;font-size:13px;">
+        <a href="https://classic.minecraft.net/">Play Minecraft Classic</a>
+      </p>
+    </noscript>
+  </div>
+  <!-- Minecraft Classic Iframe Embed Code – END -->
+</body>
+</html>
